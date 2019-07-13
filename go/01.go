@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func sum1() int {
 	sum := 0
 
@@ -27,9 +23,4 @@ func sum2() int {
 	}
 
 	return sum
-}
-
-func main() {
-	// fmt.Println(sum1())
-	fmt.Println(sum2())
 }
