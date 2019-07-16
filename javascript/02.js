@@ -7,7 +7,7 @@ function fib() {
     sum.push(inc)
   }
 
-  return sum.reduce((acc , val) => val % 2 == 0 ? acc + val : acc);
+  return sum.reduce((acc , val) => val % 2 == 0 ? acc + val : acc, 0);
 }
 
 console.log(fib());
