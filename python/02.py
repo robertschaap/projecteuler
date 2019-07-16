@@ -11,6 +11,6 @@ def fib():
 
     list.append(inc)
 
-  return reduce(lambda acc,val: acc+val if val % 2 == 0 else acc, list)
+  return reduce(lambda acc,val: acc+val if val % 2 == 0 else acc, list, 0)
 
 print(fib())
